@@ -6,7 +6,7 @@
 /*   By: jfremond <jfremond@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/25 16:57:42 by jfremond          #+#    #+#             */
-/*   Updated: 2021/02/25 17:21:03 by jfremond         ###   ########.fr       */
+/*   Updated: 2021/02/25 18:45:13 by jfremond         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,6 +63,7 @@ void			ft_printf_spaces_num(t_struct *s);
 
 void			ft_printf_width_alpha(char *str, t_struct *s);
 void			ft_printf_width_num(char *str, t_struct *s);
+void			ft_printf_width_num_minus(char *str, t_struct *s);
 void			ft_printf_width_ptr(char *str, t_struct *s);
 
 void			ft_printf_prec_alpha(char *str, t_struct *s);
