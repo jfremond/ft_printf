@@ -6,7 +6,7 @@
 /*   By: jfremond <jfremond@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/25 16:57:42 by jfremond          #+#    #+#             */
-/*   Updated: 2021/02/25 21:29:14 by jfremond         ###   ########.fr       */
+/*   Updated: 2021/02/25 21:51:28 by jfremond         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,6 +51,7 @@ void			ft_treat_uhexa(t_struct *s, va_list args);
 void			ft_treat_octal(t_struct *s, va_list args);
 void			ft_treat_percent(t_struct *s);
 
+void			ft_parse_spaces(const char *str, t_struct *s);
 void			ft_parse_flags(const char *str, t_struct *s);
 void			ft_parse_width(const char *str, t_struct *s, va_list args);
 void			ft_parse_prec(const char *str, t_struct *s, va_list args);
