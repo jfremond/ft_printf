@@ -6,7 +6,7 @@
 /*   By: jfremond <jfremond@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/25 18:26:08 by jfremond          #+#    #+#             */
-/*   Updated: 2021/02/25 18:31:11 by jfremond         ###   ########.fr       */
+/*   Updated: 2021/02/25 21:13:38 by jfremond         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ void	ft_treat_octal(t_struct *s, va_list args)
 		s->width--;
 		s->len++;
 	}
-	s->res = ft_itoa_base(s->res, s);
+	s->res = ft_itoa_base(num, "01234567");
 	while (s->res[s->nbc])
 	{
 		s->nbc++;
