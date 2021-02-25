@@ -6,7 +6,7 @@
 /*   By: jfremond <jfremond@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/25 18:35:13 by jfremond          #+#    #+#             */
-/*   Updated: 2021/02/25 21:48:30 by jfremond         ###   ########.fr       */
+/*   Updated: 2021/02/25 21:53:20 by jfremond         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,9 +23,11 @@ void	ft_total_parsing(const char *str, t_struct *s, va_list args)
 void	ft_parse_spaces(const char *str, t_struct *s)
 {
 	while (str[s->i] == ' ')
+	{
+		write(1, &str[s->i], 1);
 		s->i++;
-	write(1, &str[s->i], 1);
-	s->len++;
+		s->len++;
+	}
 }
 
 void	ft_parse_flags(const char *str, t_struct *s)
