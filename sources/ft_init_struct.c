@@ -6,7 +6,7 @@
 /*   By: jfremond <jfremond@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/25 17:23:55 by jfremond          #+#    #+#             */
-/*   Updated: 2021/02/25 17:25:50 by jfremond         ###   ########.fr       */
+/*   Updated: 2021/02/25 21:42:57 by jfremond         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,5 +25,5 @@ void	ft_init_struct(t_struct *s)
 	s->dot = 0;
 	s->count = 0;
 	s->type = 0;
-	s->res = 0;
+	s->res = NULL;
 }
