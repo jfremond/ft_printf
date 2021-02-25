@@ -6,11 +6,11 @@
 /*   By: jfremond <jfremond@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/25 17:42:18 by jfremond          #+#    #+#             */
-/*   Updated: 2021/02/25 17:44:41 by jfremond         ###   ########.fr       */
+/*   Updated: 2021/02/25 21:11:03 by jfremond         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/ft_printf.h"
+#include "../includes/ft_printf.h"
 
 void	ft_treat_ptr(t_struct *s, va_list args)
 {
