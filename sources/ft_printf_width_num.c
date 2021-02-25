@@ -6,9 +6,11 @@
 /*   By: jfremond <jfremond@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/25 18:44:14 by jfremond          #+#    #+#             */
-/*   Updated: 2021/02/25 18:45:17 by jfremond         ###   ########.fr       */
+/*   Updated: 2021/02/25 21:14:48 by jfremond         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "../includes/ft_printf.h"
 
 void	ft_printf_width_num(char *str, t_struct *s)
 {
