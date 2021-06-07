@@ -6,7 +6,7 @@
 /*   By: jfremond <jfremond@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/25 16:57:42 by jfremond          #+#    #+#             */
-/*   Updated: 2021/02/25 21:51:28 by jfremond         ###   ########.fr       */
+/*   Updated: 2021/06/07 09:58:57 by jfremond         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@
 
 # include "../libft/libft.h"
 
-typedef	struct	s_struct
+typedef struct s_struct
 {
 	int		i;
 	int		len;
