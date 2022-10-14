@@ -1,8 +1,8 @@
 # ft_printf
 
 ## STATS
-![Watchers](https://img.shields.io/github/watchers/jfremond/libft?logo=github&style=for-the-badge)
-![Stars](https://img.shields.io/github/stars/jfremond/libft?logo=github&style=for-the-badge)
+![Watchers](https://img.shields.io/github/watchers/jfremond/ft_printf?logo=github&style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/jfremond/ft_printf?logo=github&style=for-the-badge)
 ![Forks](https://img.shields.io/github/forks/jfremond/libft?logo=github&style=for-the-badge)
 
 ## CONTENTS
